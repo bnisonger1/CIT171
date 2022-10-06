@@ -128,6 +128,6 @@ var enterFunction = (event) =>{
     }
 }
 
-var passwordField = document.getElementById("password");
+var passwordField = document.getElementById("onetimepassword");
 
 passwordField.addEventListener("keyup", enterFunction);
